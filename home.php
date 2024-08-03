@@ -220,7 +220,9 @@
                         echo "<td>" . $row['address'] . "</td>";
                         echo "<td>";
                         echo "<button type='submit' name='edit' value='" . $row['id'] . "'>Edit</button>";
+                        echo "<form action='' method='post' style='display:inline;'>";
                         echo "<button type='submit' name='delete' value='" . $row['id'] . "'>Delete</button>";
+                        echo "</form>";
                         echo "</td>";
                         echo "</tr>";
                     }
